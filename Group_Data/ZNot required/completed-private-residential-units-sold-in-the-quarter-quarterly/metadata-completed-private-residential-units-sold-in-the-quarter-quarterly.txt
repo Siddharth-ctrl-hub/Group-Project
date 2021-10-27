@@ -1,0 +1,54 @@
+# Metadata for Completed Private Residential Units Sold in the Quarter, Quarterly
+---
+Identifier: 'f8e5b154-b261-4447-a5b8-dec8e94bf80c'
+Name: 'completed-private-residential-units-sold-in-the-quarter-quarterly'
+Title: 'Completed Private Residential Units Sold in the Quarter, Quarterly'
+Description: 'Completed Properties refers to sold units in completed projects which
+  are still licensed.'
+Topics:
+  - 'Infrastructure'
+Keywords:
+  - 'completed'
+  - 'private residential units'
+  - 'quarter'
+  - 'sold'
+Publisher:
+  Name: 'Urban Redevelopment Authority'
+  Admin 1:
+    Name: 'Chee Tuck Chuen'
+    Department: 'Property Research Department'
+    Email: 'chee_tuck_chuen@ura.gov.sg'
+Sources:
+  - 'Urban Redevelopment Authority'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Quarterly'
+Coverage: '1999-10-01 to 2021-06-30'
+Last Updated: '2021-08-25T02:22:09.312467'
+Resources:
+  -
+    Identifier: '164153a2-8964-4db2-a457-0624eaf432b8'
+    Title: 'Completed Private Residential Units Sold in the Quarter, Quarterly'
+    Url: 'https://storage.data.gov.sg/completed-private-residential-units-sold-in-the-quarter-quarterly/resources/completed-private-residential-units-sold-in-the-quarter-quarterly-2021-08-25T02-22-08Z.csv'
+    Format: 'CSV'
+    Coverage: '1999-10-01 to 2021-06-30'
+    Description: 'Completed Properties refers to sold units in completed projects
+      which are still licensed.'
+    Last Updated: '2021-08-25T02:22:08.891111'
+    Schema:
+      -
+        Name: 'quarter'
+        Title: 'Quarter'
+        Type: 'datetime'
+        Sub Type: 'quarter'
+        Format: 'YYYY-[Q]Q'
+      -
+        Name: 'res_completion_status'
+        Title: 'Res completion status'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'units'
+        Title: 'Units'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Units'

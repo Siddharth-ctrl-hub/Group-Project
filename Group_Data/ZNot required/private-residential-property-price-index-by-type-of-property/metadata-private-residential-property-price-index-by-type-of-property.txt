@@ -1,0 +1,88 @@
+# Metadata for Private Residential Property Price Index
+---
+Identifier: 'a0e0cfa4-1662-458b-9bc8-917f4afc399a'
+Name: 'private-residential-property-price-index-by-type-of-property'
+Title: 'Private Residential Property Price Index'
+Description:
+  - 'To provide data on price indices of private properties, office, shop, multiple
+    user factory and warehouse.'
+  - ''
+  - 'Data are computed using stratified hedonic regression method. The sum of values
+    of transactions from Q1 2014 to Q1 2015 is used as weights to compute the index.'
+  - ''
+Topics:
+  - 'Infrastructure'
+Keywords:
+  - 'housing'
+  - 'price index'
+  - 'private property'
+Publisher:
+  Name: 'Urban Redevelopment Authority'
+  Admin 1:
+    Name: 'Foong Loong Sun'
+    Department: 'Property Research'
+    Email: 'foong_loong_sun@ura.gov.sg'
+Sources:
+  - 'Urban Redevelopment Authority'
+Source Url: 'https://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=15139'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Quarterly'
+Coverage: '1975-01-01 to 2020-03-31'
+Last Updated: '2020-10-29T06:10:59.635650'
+Resources:
+  -
+    Identifier: '947b5cbe-0b0a-4fdb-b06e-aca1e34d87fd'
+    Title: 'Private Residential Property Price Index (Base Quarter 2009-Q1 = 100)'
+    Url: 'https://storage.data.gov.sg/private-residential-property-price-index-by-type-of-property/resources/private-residential-property-price-index-base-quarter-2009-q1-100-2020-06-09T02-59-38Z.csv'
+    Format: 'CSV'
+    Coverage: '1975-01-01 to 2020-03-31'
+    Last Updated: '2020-06-09T02:59:38.690754'
+    Schema:
+      -
+        Name: 'quarter'
+        Title: 'Quarter'
+        Type: 'datetime'
+        Sub Type: 'quarter'
+        Format: 'YYYY-[Q]Q'
+      -
+        Name: 'level_1'
+        Title: 'Residential Property'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'value'
+        Title: 'Private Residential Property Price Index'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Index'
+  -
+    Identifier: 'e779eb53-a1c0-4670-a5ac-43b5b534496d'
+    Title: 'Private Residential Property Price Index By Type Of Property, (Base Quarter
+      2009-Q1 = 100)'
+    Url: 'https://storage.data.gov.sg/private-residential-property-price-index-by-type-of-property/resources/private-residential-property-price-index-by-type-of-property-base-quarter-2009-q1-100-2020-06-07T02-51-18Z.csv'
+    Format: 'CSV'
+    Coverage: '1975-01-01 to 2020-03-31'
+    Last Updated: '2020-06-07T02:51:18.703786'
+    Schema:
+      -
+        Name: 'quarter'
+        Title: 'Quarter'
+        Type: 'datetime'
+        Sub Type: 'quarter'
+        Format: 'YYYY-[Q]Q'
+      -
+        Name: 'level_1'
+        Title: 'Residential Properties'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'level_2'
+        Title: 'Type Of Property'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'value'
+        Title: 'Private Residential Property Price Index'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Index'

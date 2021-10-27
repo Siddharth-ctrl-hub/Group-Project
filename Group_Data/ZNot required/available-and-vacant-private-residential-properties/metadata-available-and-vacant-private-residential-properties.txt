@@ -1,0 +1,91 @@
+# Metadata for Available and Vacant Private Residential Properties
+---
+Identifier: '87f8d4f9-c2a5-4162-b9fa-b1150f8c0b71'
+Name: 'available-and-vacant-private-residential-properties'
+Title: 'Available and Vacant Private Residential Properties'
+Description:
+  - 'Stock and vacant units of completed private residential properties.'
+  - ''
+  - 'Note :  Data exclude hostels, HDB flats, tenement houses, parsonages and Executive
+    Condominiums.'
+Topics:
+  - 'Infrastructure'
+Keywords:
+  - 'Condominiums'
+  - 'Housing'
+  - 'Private Property'
+  - 'Property'
+Publisher:
+  Name: 'Urban Redevelopment Authority'
+  Admin 1:
+    Name: 'Chee Tuck Chuen'
+    Department: 'Property Research'
+    Email: 'chee_tuck_chuen@ura.gov.sg'
+Sources:
+  - 'Urban Redevelopment Authority'
+Source Url: 'http://www.ura.gov.sg/lad/ore/data_download/realest_singstat.xls'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '1988-01-01 to 2019-09-30'
+Last Updated: '2019-12-20T04:51:17.759850'
+Resources:
+  -
+    Identifier: '476b90b2-884e-49f6-856d-bfba2ba77e9e'
+    Title: 'Available and Vacant Private Residential Properties, Annual'
+    Url: 'https://storage.data.gov.sg/available-and-vacant-private-residential-properties/resources/available-and-vacant-private-residential-properties-annual-2016-02-17T16-49-08Z.csv'
+    Format: 'CSV'
+    Coverage: '2013-01-01 to 2014-12-31'
+    Last Updated: '2016-02-17T16:49:08.109528'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'type_of_property'
+        Title: 'Type Of Property'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'availability'
+        Title: 'Availability'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'no_of_private_residential_properties'
+        Title: 'No. Of Private Residential Properties'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. Of Private Residential Properties'
+  -
+    Identifier: '51b4a66e-1f95-453e-9206-f6314e7cb1bc'
+    Title: 'Available and Vacant Private Residential Properties, Quarterly'
+    Url: 'https://storage.data.gov.sg/available-and-vacant-private-residential-properties/resources/available-and-vacant-private-residential-properties-quarterly-2019-11-25T01-06-34Z.csv'
+    Format: 'CSV'
+    Coverage: '1988-01-01 to 2019-09-30'
+    Last Updated: '2019-11-25T01:06:34.545111'
+    Schema:
+      -
+        Name: 'quarter'
+        Title: 'Quarter'
+        Type: 'datetime'
+        Sub Type: 'quarter'
+        Format: 'YYYY-[Q]Q'
+      -
+        Name: 'level_1'
+        Title: 'Available/Vacant'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'level_2'
+        Title: 'Landed/Non-Landed'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'value'
+        Title: 'Value'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. Of Private Residential Properties'
