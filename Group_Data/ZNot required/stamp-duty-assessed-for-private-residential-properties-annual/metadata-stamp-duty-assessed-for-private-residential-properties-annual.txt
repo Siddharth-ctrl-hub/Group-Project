@@ -1,0 +1,91 @@
+# Metadata for Stamp Duty Assessed for Private Residential Properties, Annual
+---
+Identifier: '4fbfd00e-7cd9-4f34-b5c6-97584937b1cc'
+Name: 'stamp-duty-assessed-for-private-residential-properties-annual'
+Title: 'Stamp Duty Assessed for Private Residential Properties, Annual'
+Description:
+  - 'Number of transactions and amount of stamp duty assessed on private residential
+    properties for Buyer''s Stamp Duty, Additional Buyer''s Stamp Duty and Seller''s
+    Stamp Duty for Calendar Year (CY)2011 to CY2020.'
+  - ''
+  - '* Additional Buyer’s Stamp Duty (ABSD) is imposed on certain groups of people
+    who buy (or acquire) residential properties or the part for residential purposes
+    in the case of properties with mixed purposes on or after 8 December 2011. For
+    more information, please refer to IRAS Website on ABSD: https://www.iras.gov.sg/IRASHome/Other-Taxes/Stamp-Duty-for-Property/Working-out-your-Stamp-Duty/Buying-or-Acquiring-Property/What-is-the-Duty-that-I-Need-to-Pay-as-a-Buyer-or-Transferee-of-Residential-Property/Additional-Buyer-s-Stamp-Duty--ABSD-/'
+  - '* Seller’s Stamp Duty (SSD) is imposed on sellers who buy (or acquire) residential
+    properties or the part for residential purposes in the case of properties with
+    mixed purposes on or after 20 February 2010 and sell (or disposed of) them within
+    certain duration. For more information, please refer to IRAS Website on Seller''s
+    Stamp Duty: https://www.iras.gov.sg/irashome/Other-Taxes/Stamp-Duty-for-Property/Working-out-your-Stamp-Duty/Selling-or-Disposing-Property/Seller-s-Stamp-Duty--SSD--for-Residential-Property/'
+Topics:
+  - 'Finance'
+Keywords:
+  - 'Housing'
+  - 'Private Property'
+  - 'Properties'
+  - 'Stamp Duty'
+  - 'Taxes'
+Publisher:
+  Name: 'Inland Revenue Authority of Singapore'
+  Admin 1:
+    Name: 'Hoong Sook Ying'
+    Department: 'Compliance Strategy and Insights Division \ Strategy & Data Management
+      Branch'
+    Email: 'HOONG_Sook_Ying@iras.gov.sg'
+  Admin 2:
+    Name: 'Chua Sin Chet'
+    Department: 'Compliance Strategy and Insights Division \ Strategy & Data Management
+      Branch'
+    Email: 'CHUA_Sin_Chet@iras.gov.sg'
+Sources:
+  - 'Inland Revenue Authority of Singapore'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2011-01-01 to 2020-12-31'
+Last Updated: '2021-09-01T14:02:20.530415'
+Resources:
+  -
+    Identifier: 'd9f4f45c-80ea-49e3-b5d5-ce21cf464ded'
+    Title: 'Stamp Duty Assessed for Private Residential Properties'
+    Url: 'https://storage.data.gov.sg/stamp-duty-assessed-for-private-residential-properties-annual/resources/stamp-duty-assessed-for-private-residential-properties-2021-09-01T14-02-20Z.csv'
+    Format: 'CSV'
+    Coverage: '2011-01-01 to 2020-12-31'
+    Description:
+      - '* The statistics are based on date of execution of the Sale & Purchase document. '
+      - '* Private residential properties include executive condominiums but exclude
+        residential land.'
+      - '* The statistics for CY2011 and CY2012 are based on stamped documents received
+        by 31 March 2013. From CY2013 onwards, statistics are based on documents stamped
+        by 31 March of the following year (e.g. CY2013 statistics are based on documents
+        stamped by 31 March 2014)'
+      - '* The statistics are derived based on unique count of properties transferred.'
+      - '* The number of transactions for ABSD is included in the number of transactions
+        for BSD because every transaction that attracts ABSD would also attract BSD.'
+      - '* The amount of ABSD assessed is not included in the BSD amount.'
+      - '* From CY2014 onwards, statistics will exclude transactions which are subsequently
+        remitted/aborted.'
+    Last Updated: '2021-09-01T14:02:20.100378'
+    Schema:
+      -
+        Name: 'calendar_year'
+        Title: 'Calendar Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'type_of_stamp_duty'
+        Title: 'Type of Stamp Duty'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'no_of_transactions'
+        Title: 'No. of Transactions'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Count'
+      -
+        Name: 'stamp_duty_assessed'
+        Title: 'Stamp Duty Assessed'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'

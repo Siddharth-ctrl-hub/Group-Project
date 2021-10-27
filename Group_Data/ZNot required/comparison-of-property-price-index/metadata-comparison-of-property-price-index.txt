@@ -1,0 +1,117 @@
+# Metadata for Private Property Price Index by Type, Quarterly
+---
+Identifier: 'd0c740f6-95c1-43e2-9a1c-b597ed70ff7d'
+Name: 'comparison-of-property-price-index'
+Title: 'Private Property Price Index by Type, Quarterly'
+Description:
+  - 'The residential statistics were compiled from information in caveats lodged at
+    the option stage with the Singapore Land Registry, supplemented with Stamp Duty
+    data from the Inland Revenue Authority of Singapore, as well as data provided
+    by developers for new sales. A caveat is normally lodged by a purchaser to protect
+    his/her interest of a property shortly after the option to purchase is exercised.  The
+    prices in 2009-Q1 are used as the base reference price of the index. The indices
+    are compiled based on a Stratified Hedonic Regression method.  The value of properties
+    transacted in the past 5 quarters are used as weights.  The weights are revised
+    every 3 years.  The latest revision was in 2015-Q1.'
+  - ''
+  - 'The commercial statistics were compiled from information in caveats lodged at
+    the option stage with the Singapore Land Registry.  A caveat is normally lodged
+    by a purchaser to protect his/her interest of a property shortly after the option
+    to purchase is exercised. The prices in 1998-Q4 are used as the base reference
+    price of the index (i.e. the index for 1998-Q4 assumes a value of 100).The indices
+    are compiled based on a Moving Average weight method, whereby the value of properties
+    transacted in the past 12 quarters are used as weights.'
+Topics:
+  - 'Infrastructure'
+Keywords:
+  - 'Property'
+  - 'commercial property price index'
+  - 'landed residential property price index'
+  - 'office price index'
+  - 'price index'
+  - 'property price index'
+  - 'residential price index'
+  - 'retail price index'
+Publisher:
+  Name: 'Urban Redevelopment Authority'
+  Admin 1:
+    Name: 'Chee Tuck Chuen'
+    Department: 'URA'
+    Email: 'chee_tuck_chuen@ura.gov.sg'
+Sources:
+  - 'Urban Redevelopment Authority'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Quarterly'
+Coverage: '1975-01-01 to 2021-09-30'
+Last Updated: '2021-10-26T09:44:31.326965'
+Resources:
+  -
+    Identifier: '5d9a30b6-137f-497d-ab38-b2a9508c7b18'
+    Title: 'Private Residential Property Price Index (Base Quarter 2009-Q1 = 100),
+      Quarterly'
+    Url: 'https://storage.data.gov.sg/comparison-of-property-price-index/resources/private-residential-property-price-index-base-quarter-2009-q1-100-quarterly-2021-10-26T09-43-11Z.csv'
+    Format: 'CSV'
+    Coverage: '1975-01-01 to 2021-09-30'
+    Description: 'The residential statistics were compiled from information in caveats
+      lodged at the option stage with the Singapore Land Registry, supplemented with
+      Stamp Duty data from the Inland Revenue Authority of Singapore, as well as data
+      provided by developers for new sales. A caveat is normally lodged by a purchaser
+      to protect his/her interest of a property shortly after the option to purchase
+      is exercised.  The prices in 2009-Q1 are used as the base reference price of
+      the index. The indices are compiled based on a Stratified Hedonic Regression
+      method.  The value of properties transacted in the past 5 quarters are used
+      as weights.  The weights are revised every 3 years.  The latest revision was
+      in 2015-Q1.'
+    Last Updated: '2021-10-26T09:43:11.774372'
+    Schema:
+      -
+        Name: 'quarter'
+        Title: 'Quarter'
+        Type: 'datetime'
+        Sub Type: 'quarter'
+        Format: 'YYYY-[Q]Q'
+      -
+        Name: 'property_type'
+        Title: 'Property type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'index'
+        Title: 'Index'
+        Type: 'numeric'
+        Sub Type: 'percentage'
+        Description: 'Percentages are expressed as a value over 100, i.e. "100" represents
+          100%'
+  -
+    Identifier: 'a43c063d-0852-46e0-9756-f8539959c201'
+    Title: 'Commercial Property Price Index (Base Quarter 1998-Q4 = 100), Quarterly'
+    Url: 'https://storage.data.gov.sg/comparison-of-property-price-index/resources/commercial-property-price-index-base-quarter-1998-q4-100-quarterly-2021-10-26T09-44-30Z.csv'
+    Format: 'CSV'
+    Coverage: '2011-01-01 to 2021-09-30'
+    Description: 'The commercial statistics were compiled from information in caveats
+      lodged at the option stage with the Singapore Land Registry.  A caveat is normally
+      lodged by a purchaser to protect his/her interest of a property shortly after
+      the option to purchase is exercised. The prices in 1998-Q4 are used as the base
+      reference price of the index (i.e. the index for 1998-Q4 assumes a value of
+      100).The indices are compiled based on a Moving Average weight method, whereby
+      the value of properties transacted in the past 12 quarters are used as weights.'
+    Last Updated: '2021-10-26T09:44:30.828668'
+    Schema:
+      -
+        Name: 'quarter'
+        Title: 'Quarter'
+        Type: 'datetime'
+        Sub Type: 'quarter'
+        Format: 'YYYY-[Q]Q'
+      -
+        Name: 'property_type'
+        Title: 'Property type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'index'
+        Title: 'Index'
+        Type: 'numeric'
+        Sub Type: 'percentage'
+        Description: 'Percentages are expressed as a value over 100, i.e. "100" represents
+          100%'
